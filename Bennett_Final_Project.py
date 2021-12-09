@@ -13,7 +13,8 @@ The third query creates a scatter plot comparing the age of NCAA stadiums with t
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib as plt
+from matplotlib import pyplot as plt
 import pydeck as pdk
 from datetime import date
 
